@@ -28,6 +28,7 @@ div {
   margin-right: -50%;
   transform: translate(-50%, -50%);
   background-color: gray;
+  /*background-image: url('Denine_Guy.jpg');*/
 }
 
 .profile-info-container {
