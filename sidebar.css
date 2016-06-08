@@ -1,0 +1,70 @@
+div {
+  border: 1px solid #B5B3AE;
+  width: 40%; 
+  box-shadow: 0 2px 3px #B5B3AE;
+  font-family: Roboto, Sans-serif
+}
+
+.profile-head {
+  background-color: pink;
+  height: 200px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  display: block;
+  border: 1px solid black;
+  background: linear-gradient(#5C2B90, #7E2986, #AA2773);
+
+}
+
+.image-container {
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: gray;
+}
+
+.profile-info-container {
+  background-color: #F6F6F6;
+  font-size: 16px;
+}
+
+p {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.profile-detail {
+  padding: 2em 4em 1em 4em;
+  margin: 0 auto;
+}
+
+.profile-name {
+  color: #5C2B90;
+  padding-top: 3em;
+  margin-top: 0;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.profile-career {
+  color: #AA2773;
+  padding-top: 0.7em;
+}
+
+.full-profile {
+  color: #5C2B90;
+  padding: 2em 4em 3em 4em;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.full-profile span {
+  margin: 0 5px 0 10px;
+}
