@@ -1,15 +1,41 @@
+body {
+  background-color: #EEEEEE;
+}
+
+.arrow {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: 0.4em;
+  left: 0.2em;
+}
+
+.back {
+  margin-left: 12%;
+  margin-top: 20px;
+  display: block;
+  color: #000000;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 div {
   border: 1px solid #B5B3AE;
-  width: 40%; 
+  width: 30%; 
   box-shadow: 0 2px 3px #B5B3AE;
-  font-family: Roboto, Arial, Helvetica, Sans-serif
+  font-family: Roboto, Arial, Helvetica, Sans-serif;
+  position: relative;
+  top: 45%;
+  left: 40%;
 }
 
 .profile-head {
   background-color: pink;
   height: 200px;
   text-align: center;
-  position: relative;
   width: 100%;
   display: block;
   border: 1px solid black;
@@ -23,12 +49,11 @@ div {
   width: 150px;
   height: 150px;
   position: absolute;
-  top: 100%;
+  top: 200px;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   background-color: gray;
-  /*background-image: url('Denine_Guy.jpg');*/
 }
 
 .profile-info-container {
@@ -42,7 +67,7 @@ p {
 }
 
 .profile-detail {
-  padding: 2em 4em 1em 4em;
+  padding: 2em 3.5em 1em 3.5em;
   margin: 0 auto;
 }
 
